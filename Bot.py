@@ -17,8 +17,8 @@ async def launch_web_ui(update: Update, callback: CallbackContext):
     await update.effective_chat.send_message("I hear you loud and clear !")
 
 BOT_USERNAME = 'yene_megebot'
-BOT_TOKEN= '6969189145:AAEAe2RTmAFu4Vf_24W57Hxo7wKy6hKtEms'
-WEBAPP_URL='https://df90-196-188-245-135.ngrok-free.app'
+BOT_TOKEN= ''
+WEBAPP_URL=''
 async def launch_web_ui(update: Update, callback: CallbackContext):
     # display our web-app!
     kb = [
